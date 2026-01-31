@@ -1,26 +1,46 @@
 package com.example.crypticops.ui.activity;
 
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
+import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
 import com.example.crypticops.R;
+import com.example.crypticops.core.repository.gameRepository;
+import com.example.crypticops.core.model.clue;
+import com.example.crypticops.core.model.tradeCraft;
+import com.example.crypticops.core.model.userStats;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+
+        String TAG = "TICKET_TEST";
+        
+        gameRepository repo = new gameRepository(this);
+
+        Log.d(TAG, "--- START JAVA CAMELCASE TEST ---");
+
+        // 1. Test userStats
+        userStats myStats = repo.loadUserStats();
+        Log.d(TAG, "User Score: " + myStats.getScore());
+
+        // 2. Test tradeCraft
+        List<tradeCraft> crafts = repo.loadTradeCrafts();
+        if (!crafts.isEmpty()) {
+            Log.d(TAG, "First Craft: " + crafts.get(0).getName());
+        }
+
+        // 3. Test clue
+        List<clue> clues = repo.loadClues();
+        Log.d(TAG, "Clues Loaded: " + clues.size());
+        
+        for (clue c : clues) {
+            if (c.getDifficulty().equalsIgnoreCase("easy")) {
+                Log.d(TAG, "Found Easy Clue: " + c.getClueText());
+            }
+        }
     }
 }

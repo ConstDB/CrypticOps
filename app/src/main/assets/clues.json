@@ -1,0 +1,18 @@
+{
+  "0": {
+    "clue": "Traps laid for tin god",
+    "length": "6",
+    "answer": "SNARES",
+    "difficulty": "easy",
+    "tradecraft": ["ANAGRAM"],
+    "hint": "The letters are jumbled to trap the solution."
+  },
+  "1": {
+    "clue": "Doctor wears tie, so to speak",
+    "length": "2,2,4",
+    "answer": "AS IT WERE",
+    "difficulty": "medium",
+    "tradecraft": ["HOMOPHONE"],
+    "hint": "Listen to the phrase carefully."
+  }
+}

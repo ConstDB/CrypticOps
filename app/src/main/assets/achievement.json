@@ -1,0 +1,157 @@
+{
+  "first_easy": {
+    "title": "First Easy Case",
+    "description": "Solved your first Easy clue.",
+    "type": "counter",
+    "metric": "solved_by_difficulty.easy",
+    "threshold": 1,
+    "reward": 10
+  },
+  "first_medium": {
+    "title": "First Medium Case",
+    "description": "Solved your first Medium clue.",
+    "type": "counter",
+    "metric": "solved_by_difficulty.medium",
+    "threshold": 1,
+    "reward": 20
+  },
+  "first_hard": {
+    "title": "First Hard Case",
+    "description": "Solved your first Hard clue.",
+    "type": "counter",
+    "metric": "solved_by_difficulty.hard",
+    "threshold": 1,
+    "reward": 30
+  },
+  "complete_easy": {
+    "title": "Easy Clearance",
+    "description": "Completed all Easy clues.",
+    "type": "completion",
+    "difficulty": "easy",
+    "reward": 75
+  },
+  "complete_medium": {
+    "title": "Medium Clearance",
+    "description": "Completed all Medium clues.",
+    "type": "completion",
+    "difficulty": "medium",
+    "reward": 150
+  },
+  "complete_hard": {
+    "title": "Hard Clearance",
+    "description": "Completed all Hard clues.",
+    "type": "completion",
+    "difficulty": "hard",
+    "reward": 300
+  },
+  "solve_3": {
+    "title": "Warming Up",
+    "description": "Solved 3 clues.",
+    "type": "counter",
+    "metric": "solved_total",
+    "threshold": 3,
+    "reward": 50
+  },
+  "nr_3": {
+    "title": "No Help Needed I",
+    "description": "Solved 3 clues without assistance.",
+    "type": "counter",
+    "metric": "solved_without_assistance",
+    "threshold": 3,
+    "reward": 20
+  },
+  "nr_5": {
+    "title": "No Help Needed II",
+    "description": "Solved 5 clues without assistance.",
+    "type": "counter",
+    "metric": "solved_without_assistance",
+    "threshold": 5,
+    "reward": 50
+  },
+  "nr_8": {
+    "title": "No Help Needed III",
+    "description": "Solved 8 clues without assistance.",
+    "type": "counter",
+    "metric": "solved_without_assistance",
+    "threshold": 8,
+    "reward": 100
+  },
+  "nr_12": {
+    "title": "No Help Needed IV",
+    "description": "Solved 12 clues without assistance.",
+    "type": "counter",
+    "metric": "solved_without_assistance",
+    "threshold": 12,
+    "reward": 200
+  },
+  "nr_16": {
+    "title": "No Help Needed V",
+    "description": "Solved 16 clues without assistance.",
+    "type": "counter",
+    "metric": "solved_without_assistance",
+    "threshold": 16,
+    "reward": 400
+  },
+  "rules_3": {
+    "title": "Declassified I",
+    "description": "Unlocked 3 tradecraft files.",
+    "type": "counter",
+    "metric": "tradecraft_files_unlocked",
+    "threshold": 3,
+    "reward": 100
+  },
+  "rules_5": {
+    "title": "Declassified II",
+    "description": "Unlocked 5 tradecraft files.",
+    "type": "counter",
+    "metric": "tradecraft_files_unlocked",
+    "threshold": 5,
+    "reward": 200
+  },
+  "rules_7": {
+    "title": "Declassified III",
+    "description": "Unlocked 7 tradecraft files.",
+    "type": "counter",
+    "metric": "tradecraft_files_unlocked",
+    "threshold": 7,
+    "reward": 300
+  },
+  "rules_all": {
+    "title": "Full Clearance",
+    "description": "Unlocked all tradecraft files.",
+    "type": "all_rules",
+    "reward": 500
+  },
+  "score_300": {
+    "title": "On the Board",
+    "description": "Accumulated 300 points.",
+    "type": "counter",
+    "metric": "score",
+    "threshold": 300,
+    "reward": 50
+  },
+  "score_500": {
+    "title": "Rising Analyst",
+    "description": "Accumulated 500 points.",
+    "type": "counter",
+    "metric": "score",
+    "threshold": 500,
+    "reward": 100
+  },
+  "score_1000": {
+    "title": "Field Operative",
+    "description": "Accumulated 1000 points.",
+    "type": "counter",
+    "metric": "score",
+    "threshold": 1000,
+    "reward": 150
+  },
+  "score_1800": {
+    "title": "Master Cryptanalyst",
+    "description": "Accumulated 1800 points.",
+    "type": "counter",
+    "metric": "score",
+    "threshold": 1800,
+    "reward": 20
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ANAGRAM": {
+    "name": "Anagram",
+    "description": "Letters of a word or phrase are rearranged to form the answer.",
+    "indicator": "Look out for words suggesting movement, change, or disorder: mix, throwing, destroy, strange, dancing, sort of, tampering with, exploded - these can all be anagram indicators.",
+    "example": "Clue: 'Traps laid for tin god' → Answer: 'SNARES' (letters of 'traps' rearranged)"
+  },
+  "HOMOPHONE": {
+    "name": "Homophone",
+    "description": "The answer sounds like another word mentioned in the clue.",
+    "indicator": "Look for words that suggest hearing: 'so to speak', 'I hear', 'reportedly', 'on the radio'.",
+    "example": "Clue: 'Doctor wears tie, so to speak' → Answer: 'AS IT WERE'"
+  }
+}
