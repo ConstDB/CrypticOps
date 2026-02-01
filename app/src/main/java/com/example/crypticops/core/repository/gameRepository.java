@@ -71,7 +71,7 @@ public class gameRepository {
     public List<tradeCraft> loadTradeCrafts() {
         List<tradeCraft> list = new ArrayList<>();
         try {
-            JSONObject obj = new JSONObject(loadJSONFromAsset("tradecrafts.json"));
+            JSONObject obj = new JSONObject(loadJSONFromAsset("tradeCraft.json"));
             Iterator<String> keys = obj.keys();
 
             while(keys.hasNext()) {

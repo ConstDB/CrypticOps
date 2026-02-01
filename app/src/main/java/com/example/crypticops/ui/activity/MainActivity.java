@@ -8,6 +8,7 @@ import com.example.crypticops.core.repository.gameRepository;
 import com.example.crypticops.core.model.clue;
 import com.example.crypticops.core.model.tradeCraft;
 import com.example.crypticops.core.model.userStats;
+import com.example.crypticops.core.model.achievement;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -41,6 +42,13 @@ public class MainActivity extends AppCompatActivity {
             if (c.getDifficulty().equalsIgnoreCase("easy")) {
                 Log.d(TAG, "Found Easy Clue: " + c.getClueText());
             }
+
+            List<achievement> badges = repo.loadAchievements();
+            Log.d(TAG, "Achievements Loaded: " + badges.size());
+
+            if (!badges.isEmpty()) {
+                Log.d(TAG, "First Badge: " + badges.get(0).getTitle());
         }
     }
+}
 }
