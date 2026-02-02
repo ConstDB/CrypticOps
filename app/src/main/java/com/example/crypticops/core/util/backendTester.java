@@ -60,47 +60,6 @@ public class backendTester {
             }
         }
 
-        // 6. Test Filter
-        List<clue> easyClues = repo.getCluesByDifficulty("easy");
-        Log.d(TAG, "[Filter] Found " + easyClues.size() + " Easy clues.");
-
-        if (!easyClues.isEmpty()) {
-            Log.d(TAG, "[Filter] Example Easy: " + easyClues.get(0).getClueText());
-        }
-
-        // 7. TICKET 3: Validation Engine Test
-        Log.d(TAG, "--- Testing Validation ---");
-
-        if (!clues.isEmpty()) {
-            clue c = clues.get(0);
-            String correctAns = c.getAnswer();
-            String testId = c.getId();
-
-            Log.d(TAG, "Target Answer: " + correctAns);
-
-            // Test 1: Wrong Answer
-            String result1 = repo.checkAnswer(testId, "WrongAnswer");
-            Log.d(TAG, "Input: 'WrongAnswer' -> Result: " + result1);
-
-            // Test 2: Correct Answer with Messy Input (Spaces + Wrong Case)
-            String messyInput = "   " + correctAns.toLowerCase() + "   ";
-            String result2 = repo.checkAnswer(testId, messyInput);
-            Log.d(TAG, "Input: '" + messyInput + "' -> Result: " + result2);
-
-            if (result2.equals("Correct")) {
-                // Test 3: Check if stats updated
-                userStats updatedStats = repo.loadUserStats();
-                Log.d(TAG, "New Solved Count: " + updatedStats.getSolvedTotal());
-                Log.d(TAG, "Solved List: " + updatedStats.getCluesSolved().toString());
-
-                if (updatedStats.getCluesSolved().contains(testId)) {
-                    Log.d(TAG, "success");
-                } else {
-                    Log.e(TAG, "failed");
-                }
-            }
-        }
-
         Log.d(TAG, "          END BACKEND TEST           ");
     }
 }

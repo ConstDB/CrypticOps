@@ -24,9 +24,6 @@ public class clue {
     // Getters
     public String getId() { return id; }
     public String getClueText() { return clueText; }
-    public String getLength() { return length; }
-    public String getAnswer() { return answer; } // This was missing!
     public String getDifficulty() { return difficulty; }
     public List<String> getTradeCrafts() { return tradeCrafts; }
-    public String getHint() { return hint; }
 }
