@@ -3,7 +3,7 @@ package com.example.crypticops.ui.activity;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.crypticops.R;
-import com.example.crypticops.core.util.backendTester;
+import com.example.crypticops.core.util.backendTester; // Import your new tester
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // This calls the NEW test file you just wrote
         backendTester.runAllTests(this);
     }
 }
