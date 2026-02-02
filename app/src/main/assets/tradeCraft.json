@@ -1,14 +1,56 @@
 {
-  "ANAGRAM": {
+  "Anagram": {
     "name": "Anagram",
     "description": "Letters of a word or phrase are rearranged to form the answer.",
     "indicator": "Look out for words suggesting movement, change, or disorder: mix, throwing, destroy, strange, dancing, sort of, tampering with, exploded - these can all be anagram indicators.",
     "example": "Clue: 'Traps laid for tin god' → Answer: 'SNARES' (letters of 'traps' rearranged)"
   },
-  "HOMOPHONE": {
+  "Hidden Word": {
+    "name": "Hidden Word",
+    "description": "The answer appears consecutively inside words of the clue.",
+    "indicator": "Look for words that suggest \n\t\t •Hiding or revealing: conceals, hides, displays, reveals.\n\t\t •Containing: within, held by, capturing, absorbed. \n\t\t •A segment or part: sample, selection, bit of, taken from.",
+    "example": "Clue: 'Arab state within Romania' → Answer: 'OMAN' (hidden inside 'RoMANia')"
+  },
+  "Reversal": {
+    "name": "Reversal",
+    "description": "The answer appears backwards; indicated by words like 'back' or 'returns'.",
+    "indicator": "Reversal indicators usually fall into three types: \n\t\t •Literal: back, returned, around, reversed, retro.\n\t\t •Figurative: mirror, rolling, twist, circulating, boomerangs. \n\t\t •In down clues: words that suggest upwards motion - raising, up, lifted.",
+    "example": "Clue: 'Girl taking sodium backwards and forwards' → Answer: 'ANNA'"
+  },
+  "Homophone": {
     "name": "Homophone",
-    "description": "The answer sounds like another word mentioned in the clue.",
-    "indicator": "Look for words that suggest hearing: 'so to speak', 'I hear', 'reportedly', 'on the radio'.",
-    "example": "Clue: 'Doctor wears tie, so to speak' → Answer: 'AS IT WERE'"
+    "description": "The answer sounds like a word or phrase in the clue.",
+    "indicator": "Homophone indicators usually relate to sound, speech, or hearing: sounded, listening to, mentioned, by phone, said, report, utterly, audition. \n\n Some are clear, others more figurative, but they all suggest something you hear.",
+    "example": "Clue: 'An opening, so it's said, for love' → Answer: 'ADORE'"
+  },
+  "Double Definition": {
+    "name": "Double Definition",
+    "description": "Two definitions in the clue point to the same answer.",
+    "indicator": "The clue is often short and split into two distinct meanings that independently define the same answer. Punctuation (dash, question mark) or a smooth surface reading often separates the two definitions.",
+    "example": "Clue: 'Copper-coloured - like kippers?' → Answer: 'CURED'"
+  },
+  "Container": {
+    "name": "Container",
+    "description": "Letters are placed inside other letters to form the answer.",
+    "indicator": "There are two main types of container indicators:\n\t\t •Within: in, into, within - insert letters into another word. \n\t\t •Around: about, around, outside of - wrap one word around another.",
+    "example": "Clue: 'Explicit about king in play' → Answer: 'CLEAR' ('C' around 'LEAR')"
+  },
+  "Subtraction": {
+    "name": "Subtraction",
+    "description": "Some letters are removed to form the answer.",
+    "indicator": "Look for words that suggest something being left out, removed, or ignored: without, drops, loses, gave up, forgotten by, cut, leaks out of.",
+    "example": "Clue: 'Egyptian god beheading singers' → Answer: 'HORUS' ('chorus' minus the first letter)"
+  },
+  "Charade": {
+    "name": "Charade",
+    "description": "Parts of the answer are clued separately and combined.",
+    "indicator": "There are three main types: \n\t\t •Singles: usually first, last, or middle letters. Look for words like head, tail, heart. If you're taking singles from multiple words, these indicators will be plural - e.g. heads. \n\t\t •Collections: outsides or insides of words. Think borders, coat, contents, guts. \n\t\t •Sequences: regularly spaced letters, like every second one. Indicators include odd, even, alternate, regularly.",
+    "example": "Clue: 'Foxtrot by Romeo has to produce disapproving looks' → Answer: 'FROWNS'"
+  },
+  "Definition+Wordplay": {
+    "name": "Definition + Wordplay",
+    "description": "One part is the straight definition and the other is wordplay.",
+    "indicator": "There is usually no specific indicator for this structure itself. One part of the clue is a straight definition, while the other part contains wordplay indicators (anagram, container, deletion, etc.). The definition is almost always at the start or the end of the clue.",
+    "example": "Clue: 'Just adjust my reel' → Answer: 'MERELY' (definition: just, wordplay: anagram of 'my reel')"
   }
 }

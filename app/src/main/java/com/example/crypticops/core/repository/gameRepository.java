@@ -1,6 +1,7 @@
 package com.example.crypticops.core.repository;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import com.example.crypticops.core.model.clue;
 import com.example.crypticops.core.model.tradeCraft;
 import com.example.crypticops.core.model.userStats;
@@ -16,7 +17,6 @@ import java.util.List;
 
 public class gameRepository {
     private Context context;
-
     public gameRepository(Context context) {
         this.context = context;
     }
@@ -118,11 +118,49 @@ public class gameRepository {
         try {
             JSONObject obj = new JSONObject(loadJSONFromAsset("user.json"));
             return new userStats(
-                obj.getInt("score"),
-                obj.getInt("assistance_points"),
-                obj.getInt("solved_total")
+                    obj.getInt("score"),
+                    obj.getInt("assistance_points"),
+                    obj.getInt("solved_total")
             );
-        } catch (Exception e) { e.printStackTrace(); }
-        return new userStats(0, 0, 0); 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return new userStats(0, 0, 0);
     }
-}
+        public clue getClueById(String targetId) {
+            // We need to reload or cache the list.
+            // For efficiency, usually we load once, but for now let's load and search.
+            List<clue> allClues = loadClues();
+
+            for (clue c : allClues) {
+                if (c.getId().equals(targetId)) {
+                    return c;
+                }
+            }
+            return null; // Not found
+        }
+
+        public void saveClueNote(String clueId, String noteText) {
+            SharedPreferences prefs = context.getSharedPreferences("CrypticOps_Notes", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.putString("NOTE_" + clueId, noteText);
+            editor.apply(); // Saves in background
+        }
+
+        public String getClueNote(String clueId) {
+            SharedPreferences prefs = context.getSharedPreferences("CrypticOps_Notes", Context.MODE_PRIVATE);
+            return prefs.getString("NOTE_" + clueId, ""); // Returns empty string if no note exists
+        }
+        public List<clue> getCluesByDifficulty(String difficulty) {
+            List<clue> allClues = loadClues();
+            List<clue> filteredList = new ArrayList<>();
+
+            for (clue c : allClues) {
+                // Check if the difficulty matches (ignoring capital letters)
+                if (c.getDifficulty().equalsIgnoreCase(difficulty)) {
+                    filteredList.add(c);
+                }
+            }
+            return filteredList;
+        }
+    }

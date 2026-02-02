@@ -4,7 +4,7 @@
     "length": "6",
     "answer": "SNARES",
     "difficulty": "easy",
-    "tradecraft": ["ANAGRAM"],
+    "tradecraft_key": "Anagram",
     "hint": "The letters are jumbled to trap the solution."
   },
   "1": {
@@ -12,7 +12,471 @@
     "length": "2,2,4",
     "answer": "AS IT WERE",
     "difficulty": "medium",
-    "tradecraft": ["HOMOPHONE"],
+    "tradecraft_key": "Homophone",
     "hint": "Listen to the phrase carefully."
+  },
+  "2": {
+    "clue": "Arrange roster for holiday location",
+    "length": "6",
+    "answer": "RESORT",
+    "difficulty": "easy",
+    "tradecraft_key": "Anagram",
+    "hint": "Letters are rearranged to find a place."
+  },
+  "3": {
+    "clue": "Just fluorine and a mixture of gases",
+    "length": "4",
+    "answer": "FAIR",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Combine elements to form the meaning."
+  },
+  "4": {
+    "clue": "I decline no arrangement for a singer",
+    "length": "6,4",
+    "answer": "CELINE DION",
+    "difficulty": "hard",
+    "tradecraft_key": "Anagram",
+    "hint": "Rearranged letters reveal a famous name."
+  },
+  "5": {
+    "clue": "Kate chopped wood",
+    "length": "4",
+    "answer": "TEAK",
+    "difficulty": "easy",
+    "tradecraft_key": "Charade",
+    "hint": "Think of splitting the word logically."
+  },
+  "6": {
+    "clue": "Trek less confusing for flighty hunters",
+    "length": "8",
+    "answer": "KESTRELS",
+    "difficulty": "medium",
+    "tradecraft_key": "Anagram",
+    "hint": "Letters are scrambled to find birds."
+  },
+  "7": {
+    "clue": "Cut off in Lima with Oscar and Papa",
+    "length": "3",
+    "answer": "LOP",
+    "difficulty": "easy",
+    "tradecraft_key": "Charade",
+    "hint": "Pieces of the clue combine to trim the word."
+  },
+  "8": {
+    "clue": "Copper-coloured - like kippers?",
+    "length": "5",
+    "answer": "CURED",
+    "difficulty": "medium",
+    "tradecraft_key": "Double Definition",
+    "hint": "Think of both preservation and color."
+  },
+  "9": {
+    "clue": "Within a week I lost weight",
+    "length": "4",
+    "answer": "KILO",
+    "difficulty": "easy",
+    "tradecraft_key": "Subtraction",
+    "hint": "Something has been removed or reduced."
+  },
+  "10": {
+    "clue": "Be revolutionary in estimates and discounts",
+    "length": "7",
+    "answer": "REBATES",
+    "difficulty": "medium",
+    "tradecraft_key": "Reversal",
+    "hint": "Backwards thinking reveals savings."
+  },
+  "11": {
+    "clue": "Girl taking sodium backwards and forwards",
+    "length": "4",
+    "answer": "ANNA",
+    "difficulty": "easy",
+    "tradecraft_key": "Reversal",
+    "hint": "Read the letters in both directions."
+  },
+  "12": {
+    "clue": "Arab state within Romania",
+    "length": "4",
+    "answer": "OMAN",
+    "difficulty": "easy",
+    "tradecraft_key": "Hidden Word",
+    "hint": "The answer is hiding right inside the clue."
+  },
+  "13": {
+    "clue": "Quickly taking break in river",
+    "length": "6",
+    "answer": "PRESTO",
+    "difficulty": "medium",
+    "tradecraft_key": "Hidden Word",
+    "hint": "The answer flows hidden in the clue."
+  },
+  "14": {
+    "clue": "Europeans at odds in Sedan",
+    "length": "5",
+    "answer": "DANES",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Separate elements combine to form the people."
+  },
+  "15": {
+    "clue": "Explicit about king in play",
+    "length": "5",
+    "answer": "CLEAR",
+    "difficulty": "medium",
+    "tradecraft_key": "Container",
+    "hint": "Something surrounds the royal reference."
+  },
+  "16": {
+    "clue": "Metal-worker making tungsten tree",
+    "length": "6",
+    "answer": "WELDER",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Combine the profession with a chemical symbol."
+  },
+  "17": {
+    "clue": "Foxtrot by Romeo has to produce disapproving looks",
+    "length": "8",
+    "answer": "FROWNS",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Letters together create the expression."
+  },
+  "18": {
+    "clue": "Indian father in pain",
+    "length": "6",
+    "answer": "APACHE",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Think of family plus discomfort."
+  },
+  "19": {
+    "clue": "Small owl, young, somewhat humble",
+    "length": "5",
+    "answer": "LOWLY",
+    "difficulty": "medium",
+    "tradecraft_key": "Hidden Word",
+    "hint": "The answer lies quietly within the clue."
+  },
+  "20": {
+    "clue": "Tin found in street is barely sufficient",
+    "length": "5",
+    "answer": "SCANT",
+    "difficulty": "easy",
+    "tradecraft_key": "Charade",
+    "hint": "Combine abbreviation for tin and a street reference."
+  },
+  "21": {
+    "clue": "Just adjust my reel",
+    "length": "6",
+    "answer": "MERELY",
+    "difficulty": "easy",
+    "tradecraft_key": "Anagram",
+    "hint": "Rearrange letters to find the meaning."
+  },
+  "22": {
+    "clue": "Romeo gets colleague to perk up",
+    "length": "5",
+    "answer": "RALLY",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Put letters together to create action."
+  },
+  "23": {
+    "clue": "I go nuts arranging trips",
+    "length": "7",
+    "answer": "OUTINGS",
+    "difficulty": "medium",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble letters to discover excursions."
+  },
+  "24": {
+    "clue": "An opening, so it's said, for love",
+    "length": "5",
+    "answer": "ADORE",
+    "difficulty": "medium",
+    "tradecraft_key": "Homophone",
+    "hint": "Listen to the phrase for the feeling."
+  },
+  "25": {
+    "clue": "Fix bent rapier",
+    "length": "6",
+    "answer": "REPAIR",
+    "difficulty": "easy",
+    "tradecraft_key": "Anagram",
+    "hint": "Rearrange letters to fix something."
+  },
+  "26": {
+    "clue": "Ships taking care of flowers",
+    "length": "8",
+    "answer": "COASTERS",
+    "difficulty": "medium",
+    "tradecraft_key": "Double Definition",
+    "hint": "Think both as vessels and table protectors."
+  },
+  "27": {
+    "clue": "Come after break for stuffing",
+    "length": "9",
+    "answer": "FORCEMEAT",
+    "difficulty": "hard",
+    "tradecraft_key": "Charade",
+    "hint": "Combine pieces to form something used in cooking."
+  },
+  "28": {
+    "clue": "Composer taking taxi back to hospital",
+    "length": "4",
+    "answer": "BACH",
+    "difficulty": "medium",
+    "tradecraft_key": "Reversal",
+    "hint": "Think backward movement and musical reference."
+  },
+  "29": {
+    "clue": "Very large hotel uniform, for example, is taken up",
+    "length": "4",
+    "answer": "HUGE",
+    "difficulty": "easy",
+    "tradecraft_key": "Charade",
+    "hint": "Combine the meaning from the words to get the size."
+  },
+  "30": {
+    "clue": "Just adjust my reel",
+    "length": "6",
+    "answer": "MERELY",
+    "difficulty": "easy",
+    "tradecraft_key": "Anagram",
+    "hint": "Letters are scrambled to reveal simplicity."
+  },
+  "31": {
+    "clue": "Animal that's not terribly content",
+    "length": "5",
+    "answer": "OTTER",
+    "difficulty": "medium",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble letters to find this creature."
+  },
+  "32": {
+    "clue": "People going to Silver Lake to find animal collection",
+    "length": "9",
+    "answer": "MENAGERIE",
+    "difficulty": "hard",
+    "tradecraft_key": "Charade",
+    "hint": "Combine clue elements to reach a collection of animals."
+  },
+  "33": {
+    "clue": "Pest missing when copper is introduced",
+    "length": "6",
+    "answer": "LOCUST",
+    "difficulty": "medium",
+    "tradecraft_key": "Container",
+    "hint": "A letter goes inside to form the pest."
+  },
+  "34": {
+    "clue": "Wild party for Australian, after a fashion",
+    "length": "10",
+    "answer": "SATURNALIA",
+    "difficulty": "hard",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble letters to reveal a festival."
+  },
+  "35": {
+    "clue": "Flat indeed!",
+    "length": "8",
+    "answer": "DEFLATED",
+    "difficulty": "medium",
+    "tradecraft_key": "Double Definition",
+    "hint": "Both meanings relate to being emptied."
+  },
+  "36": {
+    "clue": "Aircraft for Black Sabbath",
+    "length": "4",
+    "answer": "JETS",
+    "difficulty": "easy",
+    "tradecraft_key": "Double Definition",
+    "hint": "Both a plane and something fast."
+  },
+  "37": {
+    "clue": "Musician altering suit in apartment",
+    "length": "8",
+    "answer": "FLAUTIST",
+    "difficulty": "hard",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble letters to find the musician."
+  },
+  "38": {
+    "clue": "Fruit in trees can change",
+    "length": "10",
+    "answer": "NECTARINES",
+    "difficulty": "medium",
+    "tradecraft_key": "Anagram",
+    "hint": "Rearrange the letters to find the fruit."
+  },
+  "39": {
+    "clue": "Suitable sound for ceremony",
+    "length": "4",
+    "answer": "RITE",
+    "difficulty": "easy",
+    "tradecraft_key": "Homophone",
+    "hint": "Listen carefully, it sounds like the clue."
+  },
+  "40": {
+    "clue": "Romeo gets colleague to perk up",
+    "length": "5",
+    "answer": "RALLY",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Combine letters from parts of the clue."
+  },
+  "41": {
+    "clue": "Confer with beaten player",
+    "length": "6",
+    "answer": "PARLEY",
+    "difficulty": "medium",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble the letters to negotiate."
+  },
+  "42": {
+    "clue": "Insect observed coming back quietly",
+    "length": "4",
+    "answer": "WASP",
+    "difficulty": "easy",
+    "tradecraft_key": "Reversal",
+    "hint": "Letters run backwards to form the insect."
+  },
+  "43": {
+    "clue": "Scared to upset old soldiers",
+    "length": "8",
+    "answer": "REDCOATS",
+    "difficulty": "medium",
+    "tradecraft_key": "Reversal",
+    "hint": "Think of reversal to find the troops."
+  },
+  "44": {
+    "clue": "Ships taking care of flowers",
+    "length": "8",
+    "answer": "COASTERS",
+    "difficulty": "medium",
+    "tradecraft_key": "Double Definition",
+    "hint": "Both the vessels and table protectors."
+  },
+  "45": {
+    "clue": "Flag or sail hung awry",
+    "length": "8",
+    "answer": "LANGUISH",
+    "difficulty": "hard",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble letters to express fading."
+  },
+  "46": {
+    "clue": "Recommend about five new ideas",
+    "length": "6",
+    "answer": "ADVISE",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Combine instruction with number hint."
+  },
+  "47": {
+    "clue": "Round? Round round the front",
+    "length": "6",
+    "answer": "ROTUND",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Pieces of the clue build the shape."
+  },
+  "48": {
+    "clue": "A great number of the apostles",
+    "length": "4",
+    "answer": "HEAP",
+    "difficulty": "easy",
+    "tradecraft_key": "Double Definition",
+    "hint": "Both definitions suggest quantity."
+  },
+  "49": {
+    "clue": "An insect, say, not very bright, ascending",
+    "length": "5",
+    "answer": "MIDGE",
+    "difficulty": "medium",
+    "tradecraft_key": "Homophone",
+    "hint": "The insect sounds like the clue."
+  },
+  "50": {
+    "clue": "Egyptian god beheading singers",
+    "length": "5",
+    "answer": "HORUS",
+    "difficulty": "medium",
+    "tradecraft_key": "Subtraction",
+    "hint": "Remove the first letter to reveal the god."
+  },
+  "51": {
+    "clue": "Badly aligned in front",
+    "length": "7",
+    "answer": "LEADING",
+    "difficulty": "medium",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble the letters to lead the way."
+  },
+  "52": {
+    "clue": "Altering incorrect figure",
+    "length": "8",
+    "answer": "TRIANGLE",
+    "difficulty": "medium",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble letters to find the shape."
+  },
+  "53": {
+    "clue": "Run away from pudding, say",
+    "length": "6",
+    "answer": "DESERT",
+    "difficulty": "medium",
+    "tradecraft_key": "Homophone",
+    "hint": "Sounds like escaping a dish."
+  },
+  "54": {
+    "clue": "Prison revolutionary is aroused",
+    "length": "7",
+    "answer": "STIRRED",
+    "difficulty": "medium",
+    "tradecraft_key": "Reversal",
+    "hint": "Reversal hints at agitation."
+  },
+  "55": {
+    "clue": "Talk about small copper in Norfolk town",
+    "length": "7",
+    "answer": "DISCUSS",
+    "difficulty": "medium",
+    "tradecraft_key": "Charade",
+    "hint": "Piece together discussion letters."
+  },
+  "56": {
+    "clue": "What's been fresh is blended for use in cooking",
+    "length": "5,6",
+    "answer": "FINES HERBES",
+    "difficulty": "hard",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble letters to find culinary mix."
+  },
+  "57": {
+    "clue": "Some academic once denied a grant",
+    "length": "7",
+    "answer": "CONCEDE",
+    "difficulty": "medium",
+    "tradecraft_key": "Hidden Word",
+    "hint": "The answer hides quietly inside the clue."
+  },
+  "58": {
+    "clue": "Characters from Capri on another island",
+    "length": "4",
+    "answer": "IONA",
+    "difficulty": "easy",
+    "tradecraft_key": "Hidden Word",
+    "hint": "Hidden sequential letters form the name."
+  },
+  "59": {
+    "clue": "It's lovely having our egg so addled",
+    "length": "8",
+    "answer": "GORGEOUS",
+    "difficulty": "medium",
+    "tradecraft_key": "Anagram",
+    "hint": "Scramble letters to find the compliment."
   }
 }
